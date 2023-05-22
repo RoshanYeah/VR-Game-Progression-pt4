@@ -1,0 +1,11 @@
+Model Information:
+* title:	PC Computer - SpongeBob SquarePants 3D Obstacle
+* source:	https://sketchfab.com/3d-models/pc-computer-spongebob-squarepants-3d-obstacle-e8c76c52e8664795a0c41a6412025878
+* author:	kyle.river.withem (https://sketchfab.com/kyle.river.withem)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "PC Computer - SpongeBob SquarePants 3D Obstacle" (https://sketchfab.com/3d-models/pc-computer-spongebob-squarepants-3d-obstacle-e8c76c52e8664795a0c41a6412025878) by kyle.river.withem (https://sketchfab.com/kyle.river.withem) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

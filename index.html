@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Virtual Game</title>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-event-set-component@4.2.1/dist/aframe-event-set-component.min.js"></script>
+
+    <script src="./js/Home.js" ></script>
+    <script src="./js/City.js" ></script>
+    <script src="./js/Forest.js" ></script>
+    <script src="./js/Mountain.js" ></script>
+    <script src="./js/GameStates.js" ></script>
+  </head>
+  <body>
+    <a-scene id="main-scene">
+    
+      <!--Sky-->
+      <a-sky id="main-container" radius="5000" color="#98DAFC"></a-sky>
+
+      <!--Assets-->
+      <a-assets>
+        <a-asset-item id="forestImg" src="assets/forest/scene.gltf" ></a-asset-item>
+      </a-assets>
+
+      <!-- Ground
+      <a-plane
+        id="ground"
+        color="#78909c"
+        width="300"
+        height="300"
+        rotation="-90 0 0"
+        position="0 -20 0"
+      ></a-plane> -->
+
+      <!-- Places Container --> 
+      <a-entity id="places-container" home game-states></a-entity>
+      <a-entity id="forest" forest ></a-entity>
+
+      <!--Forest-->
+      <a-entity id="forestWorld" gltf-model="#forestImg" scale="2 2 2" visible="false" ></a-entity>
+
+      <!--Button-->
+      <a-entity id="forest-button" scale="2 1 0" position="6.2 -0.5 -10" >
+        <a-image  src="assets/start-button.png"></a-image>
+      </a-entity>
+      <a-entity id="city-button" scale="2 1 0" position="0 -0.5 -10" >
+        <a-image  src="assets/start-button.png"></a-image>
+      </a-entity>
+      <a-entity id="mountain-button" scale="2 1 0" position="-6.2 -0.5 -10" >
+        <a-image  src="assets/start-button.png"></a-image>
+      </a-entity>
+
+      <!--Fade Background-->
+      <a-entity
+        id="fadeBackground"
+        geometry="primitive: sphere; radius: 2.5"
+        material="color:black;side:back;shader:flat;transparent:true;opacity:0.6"
+        visible="false"
+        cursor-listener
+      ></a-entity>
+      
+      <!-- CAMERA -->
+      <a-camera id="camera" wasd-controls="enabled:false;">
+        <!-- App Title -->
+        <a-entity
+          id="app-title"
+          position="0 0.73 -1"
+          text="font: exo2bold; align: center; width: 2; color: #000; value: FUNCENTA"
+        ></a-entity>
+        <!-- CURSOR -->
+        <a-entity
+          id="camera-cursor"
+          position="0 0 -1"
+          geometry="primitive: ring; radiusInner: 0.02; radiusOuter: 0.03"
+          material="color: #fff; shader: flat"
+        ></a-entity>
+
+      </a-camera>
+    </a-scene>
+  </body>
+</html>

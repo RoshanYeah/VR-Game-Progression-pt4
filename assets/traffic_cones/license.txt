@@ -1,0 +1,11 @@
+Model Information:
+* title:	Traffic Cones
+* source:	https://sketchfab.com/3d-models/traffic-cones-21b041f71851446c8b1a5eb4449d15b2
+* author:	Blender3D (https://sketchfab.com/Blender3D)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Traffic Cones" (https://sketchfab.com/3d-models/traffic-cones-21b041f71851446c8b1a5eb4449d15b2) by Blender3D (https://sketchfab.com/Blender3D) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

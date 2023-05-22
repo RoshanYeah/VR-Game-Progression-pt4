@@ -1,0 +1,11 @@
+Model Information:
+* title:	PC Computer - SpongeBob SquarePants Obstacle Ody
+* source:	https://sketchfab.com/3d-models/pc-computer-spongebob-squarepants-obstacle-ody-af37d1d83d604fbc9fe07fddf3fbd755
+* author:	kyle.river.withem (https://sketchfab.com/kyle.river.withem)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "PC Computer - SpongeBob SquarePants Obstacle Ody" (https://sketchfab.com/3d-models/pc-computer-spongebob-squarepants-obstacle-ody-af37d1d83d604fbc9fe07fddf3fbd755) by kyle.river.withem (https://sketchfab.com/kyle.river.withem) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
